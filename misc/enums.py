@@ -1,0 +1,5 @@
+import enum
+
+class ORDER_TYPES(enum.Enum):
+    ORDER_TYPE_STATIC_LIMIT =0
+    ORDER_TYPE_INCREMENTAL_LIMIT = 1
